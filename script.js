@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Am I the only one around here who gives a shit about the rules? Well obviously not, because you are here asking me about them.')
+            return bot.say('Am I the only one around here who gives a shit about the rules? Well obviously not, because you are here asking me about them.\n Check out the %[Function Library](http://dashboard.atsinc.org/ssRules)')
                 .then(() => 'speak');
         }
     },
